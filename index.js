@@ -1,6 +1,6 @@
 /*!
 * panela
-* Copyright(c) 2016 Ascari Gutierrez Hermosillo
+* Copyright(c) 2017 Ascari Gutierrez Hermosillo
 * MIT Licensed
 */
 

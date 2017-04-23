@@ -13,6 +13,7 @@
       "monospaceLinks": false
   },
   "opts": {
+    "private": true,
     "recurse": true,
     "encoding": "utf8",
     "destination": "./docs",
