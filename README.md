@@ -13,15 +13,22 @@ A lightweight web development framework, rich in functionality.
 
 > Panela is a framework intended to be a practical tool for web development. 
 
-As a web developer you may need to create frontend heavy website with no or very litte server-side features, or a server-side heavy site with little or heavy frontend. 
+As a web developer you may need to create frontend heavy website with no or very little server-side features, or a server-side heavy site with multiple domains.
 
 > Panela provides an intuitive and familiar api.
 
 If you are familiar with express, Panela's api is very similar, and you can take advantage of existing express middlewares.
 
+> Panela lets you create hosts on-the-go
+
+The hosts file in your OS is automatically modified so can preview your website locally using the intended domain name. Also, a nginx configuration file is created so that you can host multiple domains, locally.
+
+This is done through the `host` method, and the only required argument is the domain name. Panela handles serving static files as well as forwarding to a express server.
+
 > Panela serves a configurable live reload script to all html pages.
 
-By taking advantage of the Build Processor api, files that are built can be watched for changes and update a page being previewd in the browser automatically.
+By taking advantage of the Build Processor api, files that are built can be watched for changes and update a page being previewed in the browser automatically.
+
 This feature is not included in a `production` enviroment.
 
 ## Installation
